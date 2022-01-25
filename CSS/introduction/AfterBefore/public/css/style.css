@@ -1,0 +1,31 @@
+h1{
+    max-width: max-content;
+    position: relative;
+
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 3px;
+    background-color: red;
+    width: 0%;
+    transition: width 2s;
+}
+
+h1::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: red;
+    width: 0%;
+    transition: width 2s;
+}
+
+h1:hover::before, h1:hover::after{
+    width: 100%;
+}

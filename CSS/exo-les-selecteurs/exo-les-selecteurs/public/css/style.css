@@ -1,0 +1,34 @@
+section{
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+section:nth-child(1)>h4{
+    color: blue;
+}
+
+section:nth-child(2){
+    border-bottom: 5px solid red;
+}
+
+section:nth-child(3) h3,h3+ul{
+    color:red;
+}
+
+section:nth-child(4) li>a{
+    font-size: 25px;
+}
+
+h3+span{
+    color: blue;
+}
+
+[alt="la-tartine"]{
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+section:last-of-type p:hover{
+    color: green;
+}
+

@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+h2{
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+}
+
+header{
+    height: 100%;
+    border-bottom: 1px solid lightgrey;
+}
+
+#inscription{
+    height: 40px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+}
+
+#inscription img{
+    margin-right: 35%;
+}
+
+#inscription form {
+    flex: 3;
+}
+
+#inscription p{
+    color: white;
+    font-weight: bold;
+}
+
+#inscription input{
+    border-radius: 3px;
+    border: none;
+    outline: white;
+    margin-left: 10px;
+}
+
+#inscription button{
+    background-color: lightgreen;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    outline: white;
+    text-transform: uppercase;
+}
+
+#inscription button:hover{
+    cursor:pointer;
+}
+
+#navigationPrincipale{
+    display: flex;
+    align-items: center;
+}
+
+#navigationPrincipale>div:first-of-type{
+    flex: 1;
+    /*padding: 20px 0px 20px 40px;*/
+    display: flex;
+    justify-content: center;
+}
+
+#navigationPrincipale>nav>ul{
+    display:flex;
+    flex: 7;
+    justify-content: center;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+#navigationPrincipale>nav>ul>li{
+    text-transform: uppercase;
+    padding: 45px 20px 45px 20px;
+    position: relative;
+}
+
+#navigationPrincipale>nav>ul>li a {
+    color: rgb(77, 76, 76);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#navigationPrincipale>nav>ul>li::before{
+        content: "";
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        height: 3px;
+        background-color: blueviolet;
+        width: 0%;
+        transition: width 2s;
+    }
+    
+    #navigationPrincipale>nav>ul>li::after{
+        content: "";
+        position: absolute;
+        bottom: 30px;
+        right: 50%;
+        height: 3px;
+        background-color: blueviolet;
+        width: 0%;
+        transition: width 2s;
+    }
+    
+    #navigationPrincipale>nav>ul>li:hover::before,#navigationPrincipale>nav>ul>li:hover::after{
+        width: 50%;
+    }
+
+#navigationPrincipale>button{
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    color:rgb(77, 76, 76);
+    flex: 1;
+}
+
+#navigationPrincipale>button:hover{
+    cursor: pointer;
+}
+
+section:first-of-type>hr:first-of-type{
+    width: 60px;
+    margin-bottom: 50px;
+    margin: 0 auto 50px auto;
+    background-color:blueviolet;
+    height: 2px;
+}
+
+section:first-of-type>p:first-of-type{
+    text-align: center;
+    font-weight: 800;
+    margin: 0 120px 55px 120px;
+}
+
+section:first-of-type>ul{
+    margin: 0 160px;
+
+}
+
+section:first-of-type>ul>li{
+    margin-bottom: 20px;
+    font-weight: 800;
+
+}
+
+section:first-of-type>ul>li:hover{
+    color: blueviolet;
+
+}
+
+section:first-of-type>ul>li::before{
+    content : "• ";
+    color: blueviolet;
+    font-size: 150%;
+
+}
+
+section:first-of-type>p:nth-of-type(2){
+    text-align: center;
+    font-weight: 800;
+    margin: 0 120px 55px 120px;
+}
+
+footer{
+    height: 100%;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reseauxSociaux{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    border-bottom:1px solid rgb(77, 76, 76);
+}
+
+#reseauxSociaux>ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+#reseauxSociaux>ul>li{
+    margin-right: 20px;
+}
+
+#reseauxSociaux>ul>li i{
+    border : 3px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 12px;
+    margin-right: 5px;
+}
+
+#reseauxSociaux>ul>li a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer>img{
+margin-bottom: 40px;
+}
+
+footer>p{
+    margin-bottom: 30px;
+    color:rgb(77, 76, 76);
+}
+
+
+

@@ -1,0 +1,41 @@
+#changebg{
+    animation: change-background 3s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+:root{
+    --i: 1;
+}
+
+
+#bgparagraphe{
+    animation: surligner 3s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes change-background {
+
+    0% {background-color: blue;}
+    50% {background-color: orange;}
+    100% {background-color: red;}
+
+}
+
+@keyframes surligner {
+    0% {left: 215px; top:65px;}
+    100% {left: 215px; top: 155px;}
+}
+
+.contain:nth-child(3):hover div{
+    animation: rotation3 2s linear ;
+    animation-iteration-count: infinite;
+    /*animation-play-state: running;*/
+}
+
+
+@keyframes rotation3 {
+    from {transform: rotateZ(0deg);}
+    to { transform: rotateZ(3600deg)}
+}

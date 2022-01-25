@@ -1,0 +1,95 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+@import "./_fonts"
+@import "./_icones"
+@import "./_variables"
+
+body
+    font-size: 18px
+
+.container 
+    background-color: #e0e1eb
+    padding: 60px 20px
+    border-radius: 4px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+#div1 
+    width: 100%
+    display: flex
+    justify-content: center
+    padding: 20px
+
+    input
+        width: 48%
+        margin-right: 15px
+        border-radius: 4px
+        border: none
+        &:focus
+            outline: 2px solid blue
+
+    button
+        width: 8%
+        padding: 10px 20px
+        border: 1px solid blue
+        color: blue
+        border-radius: 4px
+        &:hover
+            background-color: blue
+            color: white
+
+
+h2
+    color: blue
+    width: 80%
+    text-align: center
+    border: 1px solid lightgrey
+    border-radius: 4px
+
+#div2 
+    width: 100%
+    padding: 20px
+    display: flex
+    justify-content: center
+
+    button
+        color: white
+        background-color: blue
+        padding: 10px 25px
+        border: none
+        border-radius: 4px
+        margin-right: 10px
+        &:hover
+            background-color: #0a0861
+
+ul
+    width: 100%
+
+#clear
+    background-color: red
+    width: 40%
+    padding: 10px
+    color: white
+    border: none
+    border-radius: 4px
+    &:hover
+            background-color: #a81212
+
+li.defaut
+    background-color: white
+    input
+        display: none
+
+li.finDeTache 
+    background-color: blue
+    color: white
+    span
+        text-decoration: line-through
+
+// li.modifActive
+//     span
+//         display: none
+
+//     input
+//         display: block
+

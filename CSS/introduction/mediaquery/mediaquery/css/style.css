@@ -1,0 +1,126 @@
+nav ul{
+    display:flex;
+    justify-content: space-around; 
+    list-style-type: none;
+}
+
+#exo6{
+    background-image: url("../images/tartine.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and ( min-width: 1250px){
+
+    body>ul:first-of-type>li:first-of-type{
+        background-color: blue;
+    }
+
+    body>ul:first-of-type>li:nth-of-type(2){
+        background-color: green;
+    }
+
+    body>ul:nth-of-type(3)>li:nth-of-type(2){
+        font-style: italic;
+        background-color: blue;
+    }
+
+    a{
+        font-size: 50px;
+    }
+
+    a:hover{
+        color: green;
+    }
+
+}
+
+@media screen and ( max-width: 1250px){
+
+    body>ul:nth-of-type(2)>li:first-of-type{
+        background-color: orange;
+    }
+
+    body>ul:nth-of-type(2)>li:nth-of-type(2){
+        background-color: red;
+    }
+
+}
+
+@media screen and ( max-width: 1000px){
+
+    body>ul:nth-of-type(3)>li:first-of-type{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+}
+
+@media screen and ( max-width: 800px){
+
+    body>h2:nth-of-type(4){
+        border: 2px solid black;
+        color: green;
+    }
+
+}
+
+@media screen and ( min-width: 900px){
+
+    body>h2:nth-of-type(4){
+        border: 2px solid black;
+        color: green;
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1250px){ 
+
+    body>h2:nth-of-type(5){
+        color: red;
+        border: 2px solid black;
+
+    }
+
+    body>ul:nth-of-type(5)>li:first-of-type{
+        background-color: red;
+        border: 2px solid black;
+        
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    #exo6{
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media print{
+
+    h2{
+        color: black;
+    }
+
+    #exo6{
+        background-image: none;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 576px){
+    body>nav>ul{
+        display:flex;
+        flex-direction: column;
+    }
+
+    a:hover{
+        color: orange;
+    }
+}
+
+
+
+
+

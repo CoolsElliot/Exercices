@@ -1,0 +1,46 @@
+*{
+    border-radius: 10px;
+    margin: 5px;
+}
+
+html, body{
+    margin: 0px;
+}
+
+header{
+    background-color: blue;
+    height: 13vh;
+}
+
+.container{
+    display: flex;
+    height: 70vh;
+}
+
+nav{
+    background-color: lightsalmon;
+    flex: 1;
+    order: 1;
+}
+
+article{
+    background-color: lightseagreen;
+    flex: 3;
+    order: 2;
+}
+
+aside{
+    background-color: lightsalmon;
+    flex: 1;
+    order: 3;
+}
+
+footer{
+    background-color: blue;
+    height: 13vh;
+}
+
+
+
+
+

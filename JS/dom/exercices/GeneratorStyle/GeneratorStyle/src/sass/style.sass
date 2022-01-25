@@ -1,0 +1,126 @@
+@import "./_fonts"
+@import "./_icones"
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+
+/*General*/
+
+*
+    margin: 0
+    padding: 0
+
+ul
+    list-style: none
+
+a
+    text-decoration: none
+
+body
+    background-color: lightgrey
+
+input
+    border: 0.5px solid lightgrey
+
+/*Header*/
+
+header
+    padding: 30px 10px
+    margin: 30px 30px
+    background-color: $primary
+    border-left: 5px solid blue
+    border-radius: 6px
+
+    h1
+        color: white
+        
+        margin: 30px 0
+
+/*Section*/
+
+section
+    padding: 10px 0
+    margin: 30px 30px
+    background-color: white
+    border-radius: 6px
+    border-top: 5px solid blue
+
+    #buttons
+        border-bottom: 1px solid lightgrey
+        padding: 10px 0
+        
+    #inputs1
+        padding: 10px 0
+
+        input
+            &:nth-of-type(2)
+                border: 2px solid black
+            &:nth-of-type(3)
+                border-top: 2px solid black
+            &:nth-of-type(4)
+                border-right: 2px solid black
+            &:nth-of-type(5)
+                border-bottom: 2px solid black
+            &:nth-of-type(6)
+                border-left: 2px solid black
+
+    #inputs2
+        padding: 10px 0
+
+        input
+            &:nth-of-type(1)
+                border: 2px solid black
+            &:nth-of-type(2)
+                border-top: 2px solid black
+            &:nth-of-type(3)
+                border-right: 2px solid black
+            &:nth-of-type(4)
+                border-bottom: 2px solid black
+            &:nth-of-type(5)
+                border-left: 2px solid black
+
+    .bouton 
+        height: 60px 
+        width: 60px
+        border-radius: 4px
+        border: none
+        margin-right: 5px
+        margin-left: 5px
+
+    .bouton2
+        height: 56px
+        width: 80px
+        border-radius: 4px
+        margin-right: 5px
+        margin-left: 5px
+
+    .bouton3
+        height: 60px
+        width: 80px
+        border-radius: 4px
+        border: none
+        margin-right: 5px
+        margin-left: 5px
+
+    #inputColor
+        height: 60px 
+        width: 100px
+        padding: 20px 10px
+        border-radius: 4px
+        margin-right: 5px
+        margin-left: 5px
+        cursor: pointer
+
+    .inputs
+        height: 60px 
+        width: 100px
+        border-radius: 4px
+        margin-right: 5px
+        margin-left: 5px
+
+#canvas
+    height: 400px
+    width: 700px
+    background-color: lightgrey
+    margin-left: 5px
+    margin-top: 10px
+    border-radius: 4px
+

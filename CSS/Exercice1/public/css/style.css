@@ -1,0 +1,25 @@
+*{
+    margin-left: 25px;
+}
+
+.rouge{
+    color: red;
+}
+
+.bleu{
+    color: blue;
+}
+
+.grasfondrouge{
+    font-weight: bold;
+    background-color: red;
+    font-size: 34px;
+}
+
+.souligne{
+    text-decoration: underline;
+}
+
+.italic{
+    font-style: italic;
+}

@@ -1,0 +1,30 @@
+section{
+    display: flex;
+}
+
+section:first-of-type>div{
+    flex: 1;
+}
+
+section:nth-of-type(2)>div{
+    flex: 1;
+}
+
+section:nth-of-type(3)>div{
+    flex: 1;
+}
+
+section:nth-of-type(4)>div{
+    flex: 1;
+}
+
+section div{
+    background-color: orange;
+    margin: 5px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

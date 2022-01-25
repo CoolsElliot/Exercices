@@ -1,0 +1,28 @@
+section{
+    display: flex;
+}
+
+.col-6{
+    display: flex;
+    flex: 1;
+    height: 200px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.col-12{
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    margin: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

@@ -1,0 +1,17 @@
+section{
+    display: flex;
+}
+
+div{
+    background-color: red;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.bloc4{
+    flex: 2;
+}

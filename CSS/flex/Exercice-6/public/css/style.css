@@ -1,0 +1,36 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 98vh;
+}
+
+section>div:nth-child(3n+1){
+background-color: black;
+margin: auto;
+border: 1px solid black;
+width: 32%;
+height: 30vh;
+
+}
+
+section>div:nth-child(3n+2){
+    background-color: yellow;
+    margin: auto;
+    border: 1px solid black;
+    width: 32%;
+    height: 30vh;
+
+}
+
+section>div:nth-child(3n+3){
+    background-color: red;
+    margin: auto;
+    border: 1px solid black;
+    width: 32%;
+    height: 30vh;
+
+}
+
+
+
+

@@ -1,0 +1,82 @@
+/*Tous les éléments*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* l'id #vert */
+
+#vert{
+    color: green;
+}
+
+/* la class .rouge */
+
+.rouge{
+    background-color: red;
+}
+
+/*tous les h1 */
+
+h1{
+    color: yellow;
+}
+
+/* toutes les div */
+
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+/*Tous les li et tous les a*/
+
+li, a{
+    color: green;
+}
+
+/*Tous les a dans les li*/
+
+li a{
+    color:seagreen;
+}
+
+/*Enfants directs*/
+
+li>a{
+    color:slategrey;
+}
+
+/*Tous les a qui suivent un li */
+
+li+a{
+    color:teal;
+}
+
+/*Le premier li dans tous les ul */
+
+ul>li:first-of-type{
+    color: red;
+}
+
+/*Le dernier li dans tous les ul */
+
+ul>li:last-of-type{
+    color:tomato;
+}
+
+/* Le deuxième li dans tous les ul */
+
+ul>li:nth-of-type(2){
+    color:yellowgreen;
+}
+
+/* si le premier enfant de chaque ul est un li, applique le style suivant */
+
+ul>li:first-child{
+    background-color: red;
+}
+

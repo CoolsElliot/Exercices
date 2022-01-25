@@ -1,0 +1,10 @@
+footer>img,#inscription img,#navigationPrincipale>div>img{
+    animation: rotation 2s linear ;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes rotation {
+    from {transform: rotateZ(0deg);}
+    to { transform: rotateZ(360deg)}
+}

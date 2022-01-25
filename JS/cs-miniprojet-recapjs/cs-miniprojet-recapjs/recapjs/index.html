@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Javascript DOM</h1>
+
+        <div id="buttons">
+            <button>Exercice 1</button>
+            <button>Exercice 2</button>
+            <button>Exercice 3</button>
+            <button>Exercice 4</button>
+            <button>Exercice 5</button>
+            <button>Exercice 6</button>
+        </div>
+        
+
+        <div id="exo1">
+            <h2>Titre non modifié</h2>
+            <p style="margin-bottom: 20px;">list de propriétés et méthodes à retrouver dans la documentation</p>
+            <ul style="margin-bottom: 20px;">
+                <li>• innerText</li>
+                <li>• innerHTML</li>
+                <li>• querySelector()</li>
+                <li>• querySelectorAll()</li>
+                <li>• style</li>
+                <li>• classList</li>
+            </ul>
+
+            <p>Change le contenu du h2 par "titre modifié"</p>
+            <p>Change la couleur du h2</p>
+            <p>Ajouter une class background bootstrap au h2</p>
+        </div>
+        <div id="exo2">
+            <p>Mettre un écouteur d'évènement sur les boutons nav et changer le panel en conséquence</p>
+        </div>
+        <div id="exo3">
+            <h2>Welcome <span>inconnu</span></h2>
+
+            <p>Écrivez dans l'input ci-dessous le nom de la personne que vous voulez accueillir</p>
+            <p style="margin-bottom: 20px;">Lorsque vous cliquez sur le bouton "go" le nom que vous avez rajouté dans l'input sera alors mis dans le span du h2 et l'input sera vidé de tout contenu. Attention, interdiction de toucher à l'HTML !</p>
+
+            <input type="text">
+            <button>go</button>
+
+        </div>
+        <div id="exo4">
+            <h2>Déplacer les élements</h2>
+
+            <div id="exo4divs">
+                <div id="div1Exo4"></div>
+                <div id="div2Exo4"></div>
+            </div>
+
+            <div id="exo4buttons">
+                <button>change place</button>
+                <button>nombre de clics :</button>
+            </div>
+            
+        </div>
+
+        <div id="exo5">
+            <h2>Générer des éléments du DOM</h2>
+            <p>Ciquez sur le bouton ci-desous pour générer des oeufs.</p>
+            <button id="exo5button">Ajouter un oeuf</button>
+
+            <div id="exo5oeufs"></div>
+
+        </div>
+        <div id="exo6">
+            <h2>Création calculatrice</h2>
+            <p style="margin-bottom: 10px">Niveau 1</p>
+
+            <div id="calc1" style="margin-bottom: 20px;">
+                <input type="text" id="input1Calc1">
+                <span>+</span>
+                <input type="text" id="input2Calc1">
+                <button id="buttonCalc1">=</button>
+                <span id="reponseCalc1"></span>
+            </div>
+
+            <p style="margin-bottom: 10px">Niveau 2</p>
+
+            <div id="calc2">
+                <span id="reponseCalc2"></span>
+                <input type="text" id="inputCalc2">
+                <div id="buttons1Calc2">
+                    <button class="greyButton" id="btn1">1</button>
+                    <button class="greyButton" id="btn2">2</button>
+                    <button class="greyButton" id="btn3">3</button>
+                    <button class="blueButton" id="btnPlus">+</button>
+                </div>
+                <div id="buttons2Calc2">
+                    <button class="greyButton" id="btn4">4</button>
+                    <button class="greyButton" id="btn5">5</button>
+                    <button class="greyButton" id="btn6">6</button>
+                    <button class="blueButton" id="btnMoins">-</button>
+                </div>
+                <div id="buttons3Calc2">
+                    <button class="greyButton" id="btn7">7</button>
+                    <button class="greyButton" id="btn8">8</button>
+                    <button class="greyButton" id="btn9">9</button>
+                    <button class="blueButton" id="btnFois">*</button>
+                </div>
+                <div id="buttons4Calc2">
+                    <button class="redButton" id="btnC">C</button>
+                    <button class="greyButton" id="btn0">0</button>
+                    <button class="greenButton" id="btnEgal">=</button>
+                    <button class="blueButton" id="btnDiviser">/</button>
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="./public/js/main.js"></script>
+</body>
+
+</html>
