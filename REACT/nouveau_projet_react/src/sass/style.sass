@@ -1,6 +1,6 @@
 @import "./_fonts"
 @import "./_variables"
-@import '~bootstrap/scss/bootstrap.scss'
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
 
 #body
     height: 100vh
@@ -38,11 +38,18 @@
 #carddiv
     border-radius: 20px
     padding-top: 20%
+    height: 100%
+    position: relative
+
+    img
+        right: 10px
+        top: 0px
 
 #carddiv2
     border-radius: 20px
     height: 100%
     background-color: rgb(29,32,75)
+    z-index: 1
     &:hover
         background-color: rgb(52,57,123)
 
@@ -60,5 +67,29 @@
 #imgjeremy
     width: 80px
     border-radius: 50%
-    border: 1px solid white
+    border: 2px solid white
+
+.bg_orange
+    background-color: rgb(255,139,100)
+
+.bg_blue
+    background-color: rgb(86,194,230)
+
+.bg_rouge
+    background-color: rgb(255,94,125)
+
+.bg_green
+    background-color: rgb(75,207,131)
+
+.bg_mauve
+    background-color: rgb(114,53,209)
+
+.bg_yellow
+    background-color: rgb(241,199,91)
+
+
+
+
+
+
 
